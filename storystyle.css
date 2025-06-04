@@ -1,0 +1,63 @@
+ body{
+                
+    margin:30px;
+        }
+div{
+    display:block;
+        }
+img{
+    float:left;
+     }
+img[src="./children.jpg"]{
+  width:100%
+}     
+
+@media(min-width:319px){
+    img[src="./lion _caught_mouse.webp"]{
+            float:right;
+    }
+     img[src="./mouse_hero.webp"]{
+            float:right;
+    }
+  }
+
+
+@media(min-width:319px) and (max-width:480px){
+      body{
+        background-color: lightsalmon;
+      }
+      p{
+        font-size:20px;
+      }
+    }
+
+@media(min-width:481px) and (max-width:1200px){
+      body{
+        background-color:powderblue;
+      }
+      img[src="./images.jpeg"]{
+        height:50px;
+        width:10%;
+      }
+      img{
+        height:250px;
+        width:30%;
+      }
+     p{
+        font-size:26px;
+     }
+}
+
+@media(min-width:1201px){
+      body{
+        background-color:lightskyblue;
+        margin:40px;
+      }
+      img{
+        height:200px;
+        width:30%;
+      }
+      p{
+        font-size:29px;
+      }
+}
